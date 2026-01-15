@@ -89,11 +89,11 @@ describe("Stack", () => {
 
   describe("LIFO principle", () => {
     test("Should pop in reverse order of push", () => {
-      stack.push("You're").push("wizard").push(",").push("Harry");
+      stack.push("You are").push("wizard").push(",").push("Harry");
       expect(stack.pop()).toBe("Harry");
       expect(stack.pop()).toBe(",");
       expect(stack.pop()).toBe("wizard");
-      expect(stack.pop()).toBe("You're");
+      expect(stack.pop()).toBe("You are");
     });
   });
 

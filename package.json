@@ -4,6 +4,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
+    "deploy": "gh-pages -d coverage",
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:coverage": "vitest --coverage",
@@ -12,6 +13,7 @@
   "devDependencies": {
     "@vitest/coverage-v8": "^4.0.16",
     "@vitest/ui": "4.0.16",
+    "gh-pages": "^6.3.0",
     "typescript": "^5.9.3",
     "vitest": "^4.0.16"
   }
